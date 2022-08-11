@@ -1,0 +1,63 @@
+du -h /home/aman (human readable)
+du -hs /home/aman (human readable + summary)
+du -h --max-depth 1 /home/aman (human readable and max depth one directory)
+
+
+
+------------------------
+
+df command with different flags
+
+df -h (human readable and type)
+df -h -T(human readable and type)
+df -hT  (human readable and type)
+df -hT -x tmgfs(human readable and  exclude type tmgfs)
+
+
+
+-------------------------------------
+grep command with different flag
+
+ls -R Documents | grep -v abc.txt( find files excluding abc.txt)
+
+searching inside a file:
+ grep linux file1.txt
+
+grep -i linux file1.txt (incasesensitive) 
+grep -n linux file1.txt (line number bh btaye gha)
+
+
+
+ls -R / > dir.txt (all files/folders from root will write in this file(dir.txt) )
+
+
+sed command filtering and transforming text
+g globally
+sed -i 's/osama/haseeb/g' filename (osama ko search karo replace kardou haseeb se)
+2 3 4 - >>rm  occurrence
+sed -i 's/osama/haseeb/2or3or4' filename (osama ko search karo replace kardou haseeb se)
+
+
+
+vi myfile
+cat myfile 
+helloworld
+
+dd if=myfile of=anotherfile conv=ucase
+
+
+sort chars.txt | uniq -c (count)
+sort chars.txt | uniq -d (shows the repeated lines only)
+
+diff -r folder1 folder2 (check the directory and its sub-directories)
+diff -q folder1 folder2 (jo common hongi directories woh bata ddegha or jo nh hogi woh bh)
+diff -y file1 file2
+diff file1 file2
+< file1
+> file2
+
+
+cut se second word ko bh cut karnaa ha
+cut -c1 filename(isse har line ka first character miil jayegha)
+cut -d " " -f fieldnumber filename (get the list of field required)
+cut -d " " -f 1- filename --output-delimiter="," (change kardegha " " delimiter ko isse ,)
