@@ -1,0 +1,39 @@
+chapter01:
+
+OS services includes:
+
+Detect hardware
+manage processes
+manage memory
+initiate UI
+establish file system
+manage access and user authentication
+provide a platform for administrative use
+start up services (background process = daemon processes)
+
+
+
+linux characteristics :
+virtualization
+cloud computing
+clustering
+options for storage (local and networked storage available)
+
+linux compare other OS:
+
+system stability
+support
+installation
+cost
+viruses
+
+chapter02:
+
+linux distributions divide based on following criteria:
+
+availability
+package format
+release cycle
+desktop environment
+hardware compatibilty
+community support
